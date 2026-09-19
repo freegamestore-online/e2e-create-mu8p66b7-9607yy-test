@@ -1,14 +1,14 @@
 {
-  "name": "APPNAME",
+  "name": "e2e-create-mu8p66b7-9607yy-test",
   "private": true,
   "packageManager": "pnpm@10.30.3",
   "engines": { "node": ">=22" },
   "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
   "scripts": {
-    "dev": "pnpm --filter @APPNAME/web dev",
-    "build": "pnpm --filter @APPNAME/web build",
-    "preview": "pnpm --filter @APPNAME/web preview",
-    "typecheck": "pnpm --filter @APPNAME/web exec tsc -b",
-    "test": "pnpm --filter @APPNAME/web test"
+    "dev": "pnpm --filter @e2e-create-mu8p66b7-9607yy-test/web dev",
+    "build": "pnpm --filter @e2e-create-mu8p66b7-9607yy-test/web build",
+    "preview": "pnpm --filter @e2e-create-mu8p66b7-9607yy-test/web preview",
+    "typecheck": "pnpm --filter @e2e-create-mu8p66b7-9607yy-test/web exec tsc -b",
+    "test": "pnpm --filter @e2e-create-mu8p66b7-9607yy-test/web test"
   }
 }
